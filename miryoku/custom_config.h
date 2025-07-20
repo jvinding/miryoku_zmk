@@ -24,17 +24,17 @@ U_NP,              U_NP,               &trans,             &trans,             &
 U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_NA,                &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               U_NA,                \
 U_NP,              U_NP,               &kp DEL,            &kp BSPC,           &kp RET,            U_NA,                U_NA,               U_NA,               U_NP,               U_NP
 
-// #define MIRYOKU_LAYER_MOUSE \
-// U_WH_U,            U_WH_L,             U_MS_U,             U_WH_R,             U_NU,               U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
-// U_WH_D,            U_MS_L,             U_MS_D,             U_MS_R,             U_NU,               &kp HYPR,            &kp RSHFT,          &kp RCTRL,          &kp RALT,           &kp RGUI,            \
-// U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_NA,                &u_to_U_MOUSE,      &u_to_U_SYM,        U_NP,               U_NA,                \
-// U_NP,              U_NP,               U_BTN3,             U_BTN1,             U_BTN2,             U_NA,                U_NA,               U_NA,               U_NP,               U_NP
+#define MIRYOKU_LAYER_MOUSE \
+U_WH_U,            U_WH_L,             U_MS_U,             U_WH_R,             U_NU,               U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
+U_WH_D,            U_MS_L,             U_MS_D,             U_MS_R,             U_NU,               &kp HYPR,            &kp RSHFT,          &kp RCTRL,          &kp RALT,           &kp RGUI,            \
+U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_NA,                &u_to_U_MOUSE,      &u_to_U_SYM,        U_NP,               U_NA,                \
+U_NP,              U_NP,               U_BTN3,             U_BTN1,             U_BTN2,             U_NA,                U_NA,               U_NA,               U_NP,               U_NP
 
-// #define MIRYOKU_LAYER_MEDIA \
-// U_RGB_HUI,         U_RGB_SAI,          &kp C_VOL_UP,       U_RGB_BRI,          U_RGB_TOG,          U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
-// U_RGB_EFF,         &kp C_PREV,         &kp C_VOL_DN,       &kp C_NEXT,         U_EP_TOG,           &kp HYPR,            &kp RSHFT,          &kp RGUI,           &kp RALT,           &kp RGUI,            \
-// &u_bt_sel_0,       &u_bt_sel_1,        &u_bt_sel_2,        &u_bt_sel_3,        &u_out_tog,         U_NA,                &u_to_U_MEDIA,      &u_to_U_FUN,        U_NP,               U_NA,                \
-// U_NP,              U_NP,               &kp C_MUTE,         &kp C_PP,           &kp C_STOP,         U_NA,                U_NA,               U_NA,               U_NP,               U_NP
+#define MIRYOKU_LAYER_MEDIA \
+U_RGB_HUI,         U_RGB_SAI,          &kp C_VOL_UP,       U_RGB_BRI,          U_RGB_TOG,          U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
+U_RGB_EFF,         &kp C_PREV,         &kp C_VOL_DN,       &kp C_NEXT,         U_EP_TOG,           &kp HYPR,            &kp RSHFT,          &kp RGUI,           &kp RALT,           &kp RCTRL,            \
+&u_bt_sel_0,       &u_bt_sel_1,        &u_bt_sel_2,        &u_bt_sel_3,        &u_out_tog,         U_NA,                &u_to_U_MEDIA,      &u_to_U_FUN,        U_NP,               U_NA,                \
+U_NP,              U_NP,               &kp C_MUTE,         &kp C_PP,           &kp C_STOP,         U_NA,                U_NA,               U_NA,               U_NP,               U_NP
 
 // U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       MO(U_NUMPAD),       &kp LBKT,            &kp N7,             &kp N8,             &kp N9,             &kp RBKT,            \
 

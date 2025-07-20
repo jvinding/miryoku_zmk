@@ -1,4 +1,3 @@
-#define U_TAPPING_TERM 250
 #define HYPR  LC(LS(LA(LGUI)))
 
 #define MIRYOKU_LAYER_BASE \
@@ -47,7 +46,7 @@ U_NP,              U_NP,               U_NA,               U_NA,               U
 U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       U_NA,               &kp KP_SLASH,        &kp KP_N7,          &kp KP_N8,          &kp KP_N9,          &kp KP_MINUS,        \
 kp LGUI,           &kp LALT,           &kp LCTRL,          &kp LSHFT,          &kp HYPR,           &kp KP_ASTERISK,     &kp KP_N4,          &kp KP_N5,          &kp KP_N6,          &kp KP_PLUS,         \
 U_NA,              U_NU,               &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               &kp KP_ENTER,        &kp KP_N1,          &kp KP_N2,          &kp KP_N3,          &kp KP_EQUAL,        \
-U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               BSPC,                &kp KP_N0,          &kp KP_DOT,         U_NP,               U_NP
+U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               &kp BSPC,            &kp KP_N0,          &kp KP_DOT,         U_NP,               U_NP
 
 #define MIRYOKU_LAYERMAPPING_NUMPAD MIRYOKU_MAPPING
 

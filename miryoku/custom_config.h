@@ -19,8 +19,8 @@ U_MT(LGUI, A),     &trans,             U_MT(LCTRL, S),     &trans,             &
 U_NP,              U_NP,               &trans,             &trans,             &trans,             &trans,              &trans,             &trans,             U_NP,               U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&kp PD_UP,         &kp HOME,           &kp UP,             &kp END,            &kp INS,            U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
-&kp PG_DN,         &kp LEFT,           &kp DOWN,           &kp RGHT,           CW_TOGG,            &kp HYPR,            &kp RSFT,           &kp RGUI,           &kp RALT,           &kp RCTL,            \
+&kp PG_UP,         &kp HOME,           &kp UP,             &kp END,            &kp INS,            U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
+&kp PG_DN,         &kp LEFT,           &kp DOWN,           &kp RIGHT,          &u_caps_word,       &kp HYPR,            &kp RSHFT,          &kp RGUI,           &kp LALT,           &kp RCTRL,           \
 U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_NA,                &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               U_NA,                \
 U_NP,              U_NP,               &kp DEL,            &kp BSPC,           &kp RET,            U_NA,                U_NA,               U_NA,               U_NP,               U_NP
 

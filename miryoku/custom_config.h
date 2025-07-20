@@ -1,3 +1,4 @@
+/*
 #define MIRYOKU_CLIPBOARD_MAC
 
 #define MIRYOKU_LAYER_BASE \
@@ -61,3 +62,4 @@ U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       U
 &kp LGUI,          &kp LALT,           &kp LCTRL,          &kp LSHFT,          &kp HYPR,           &kp SLCK,            &kp F4,             &kp F5,             &kp F6,            &kp F11,              \
 U_NA,              U_NP,               &u_to_U_MEDIA,      &u_to_U_FUN,        U_NA,               &kp PAUSE_BREAK,     &kp F1,             &kp F2,             &kp F3,            &kp F10,              \
 U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               &kp TAB,             &kp SPACE,          &kp K_APP,          U_NP,              U_NP
+*/

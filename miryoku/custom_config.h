@@ -22,7 +22,7 @@ U_NP,              U_NP,               &trans,             &trans,             &
 &kp PD_UP,         &kp HOME,           &kp UP,             &kp END,            &kp INS,            U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \
 &kp PG_DN,         &kp LEFT,           &kp DOWN,           &kp RGHT,           CW_TOGG,            &kp HYPR,            &kp RSFT,           &kp RGUI,           &kp RALT,           &kp RCTL,            \
 U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_NA,                &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               U_NA,                \
-U_NP,              U_NP,               DEL,                BSPC,               RET,                U_NA,                U_NA,               U_NA,               U_NP,               U_NP
+U_NP,              U_NP,               &kp DEL,            &kp BSPC,           &kp RET,            U_NA,                U_NA,               U_NA,               U_NP,               U_NP
 
 #define MIRYOKU_LAYER_MOUSE \
 U_WH_U,            U_WH_L,             U_MS_U,             U_WH_R,             U_NU,               U_NA,                &u_to_U_BASE,       &u_to_U_EXTRA,      &u_to_U_TAP,        U_BOOT,              \

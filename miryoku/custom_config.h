@@ -64,3 +64,8 @@ U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       U
 U_NA,              U_NP,               &u_to_U_MEDIA,      &u_to_U_FUN,        U_NA,               &kp PAUSE_BREAK,     &kp F1,             &kp F2,             &kp F3,            &kp F10,              \
 U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               &kp TAB,             &kp SPACE,          &kp K_APP,          U_NP,              U_NP
 
+#define MIRYOKU_LAYER_BUTTON \
+U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_RDO,               U_PST,              U_CPY,              U_CUT,             U_UND,                \
+&kp LCTRL,         &kp LALT,           &kp LGUI,           &kp LSHFT,          &kp HYPR,           &kp HYPR,            &kp RSHFT,          &kp RGUI,           &kp RALT,          &kp RCTRL,            \
+U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_RDO,               U_PST,              U_CPY,              U_CUT,             U_UND,                \
+U_NP,              U_NP,               U_BTN3,             U_BTN1,             U_BTN2,             U_BTN2,              U_BTN1,             U_BTN3,             U_NP,              U_NP

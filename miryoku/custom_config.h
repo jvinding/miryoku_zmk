@@ -86,7 +86,7 @@ MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(NAV,    "Nav",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(MOUSE,  "Mouse",  U_WH_DN,  U_WH_UP)  \
+MIRYOKU_X(MOUSE,  "Mouse",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MEDIA,  "Media",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(NUM,    "Num",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(SYM,    "Sym",    C_VOL_DN, C_VOL_UP) \

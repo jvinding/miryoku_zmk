@@ -82,15 +82,15 @@ U_NP,              U_NP,               U_BTN3,             U_BTN1,             U
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base",   C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(EXTRA,  "Extra",  &trans,   &trans)   \
-MIRYOKU_X(TAP,    "Tap",    &trans,   &trans)   \
-MIRYOKU_X(BUTTON, "Button", &trans,   &trans)   \
-MIRYOKU_X(NAV,    "Nav",    &trans,   &trans)   \
+MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(NAV,    "Nav",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MOUSE,  "Mouse",  U_WH_DN,  U_WH_UP)  \
-MIRYOKU_X(MEDIA,  "Media",  &trans,   &trans)   \
-MIRYOKU_X(NUM,    "Num",    &trans,   &trans)   \
-MIRYOKU_X(SYM,    "Sym",    &trans,   &trans)   \
-MIRYOKU_X(FUN,    "Fun",    &trans,   &trans)
+MIRYOKU_X(MEDIA,  "Media",  C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(NUM,    "Num",    C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(SYM,    "Sym",    C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(FUN,    "Fun",    C_VOL_DN, C_VOL_UP)
 
 #define U_BASE   0
 #define U_EXTRA  1

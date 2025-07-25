@@ -1,16 +1,16 @@
 #define HYPR  LC(LS(LA(LGUI)))
 
 #define MIRYOKU_LAYER_BASE \
-&kp Q,             &kp W,              &kp F,              &kp P,              &kp G,              &kp J,               &kp L,              &kp U,              &kp Y,              &kp SQT,             \
+&kp Q,             &kp W,              &kp F,              &kp P,              &kp G,              &kp J,               &kp L,              &kp U,              &kp Y,              AS(SQT),             \
 U_MT(LCTRL, A),    U_MT(LALT, R),      U_MT(LGUI, S),      U_MT(LSHFT, T),     U_MT(HYPR, D),      U_MT(HYPR, H),       U_MT(RSHFT, N),     U_MT(RGUI, E),      U_MT(RALT, I),      U_MT(RCTRL, O),      \
-U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp K,               &kp M,              &kp COMMA,          &kp DOT,            U_LT(U_BUTTON,SLASH),\
+U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp K,               &kp M,              AS(COMMA),          AS(DOT),            U_LT(U_BUTTON,SLASH),\
 U_NP,              U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),   U_LT(U_MOUSE, TAB),  U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP,                \
 &kp C_PLAY_PAUSE
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,              &kp E,              &kp R,              &kp T,              &kp Y,               &kp U,              &kp I,              &kp O,              &kp P,               \
-U_MT(LCTRL, A),    U_MT(LALT, S),      U_MT(LGUI, D),      U_MT(LSHFT, F),     U_MT(HYPR, G),      U_MT(HYPR, H),       U_MT(RSHFT, J),     U_MT(RGUI, K),      U_MT(RALT, L),      U_MT(RCTRL, SQT),    \
-U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp N,               &kp M,              &kp COMMA,          &kp DOT,            U_LT(U_BUTTON,SLASH),\
+U_MT(LCTRL, A),    U_MT(LALT, S),      U_MT(LGUI, D),      U_MT(LSHFT, F),     U_MT(HYPR, G),      U_MT(HYPR, H),       U_MT(RSHFT, J),     U_MT(RGUI, K),      U_MT(RALT, L),      U_MT(RCTRL, SEMI),    \
+U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp N,               &kp M,              AS(COMMA),          AS(DOT),            U_LT(U_BUTTON,SLASH),\
 U_NP,              U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),   U_LT(U_MOUSE, TAB),  U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP,                \
 &trans
 
@@ -45,10 +45,10 @@ U_NP,              U_NP,               &kp C_MUTE,         &kp C_PP,           &
 // U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       MO(U_NUMPAD),       &kp LBKT,            &kp N7,             &kp N8,             &kp N9,             &kp RBKT,            \
 
 #define MIRYOKU_LAYER_NUM \
-U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       U_NU,               &kp LBKT,            &kp N7,             &kp N8,             &kp N9,             &kp RBKT,            \
-&kp LCTRL,         &kp LALT,           &kp LGUI,           &kp LSHFT,          &kp HYPR,           &kp EQUAL,           &kp N4,             &kp N5,             &kp N6,             &kp SEMI,            \
-U_NA,              U_NU,               &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               &kp BSLH,            &kp N1,             &kp N2,             &kp N3,             &kp GRAVE,           \
-U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               &kp MINUS,           &kp N0,             &kp DOT,            U_NP,               U_NP,                \
+U_BOOT,            &u_to_U_TAP,        &u_to_U_EXTRA,      &u_to_U_BASE,       U_NU,               AS(LBKT),            AS(N7),             AS(N8),             AS(N9),             AS(RBKT),            \
+&kp LCTRL,         &kp LALT,           &kp LGUI,           &kp LSHFT,          &kp HYPR,           AS(EQUAL),           AS(N4),             AS(N5),             AS(N6),             AS(SEMI),            \
+U_NA,              U_NU,               &u_to_U_NAV,        &u_to_U_NUM,        U_NA,               AS(BSLH),            AS(N1),             AS(N2),             AS(N3),             AS(GRAVE),           \
+U_NP,              U_NP,               U_NA,               U_NA,               U_NA,               AS(MINUS),           AS(N0),             AS(DOT),            U_NP,               U_NP,                \
 &trans
 
 // #define MIRYOKU_LAYER_NUMPAD \

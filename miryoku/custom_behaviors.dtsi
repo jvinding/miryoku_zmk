@@ -14,13 +14,4 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
-    keymap {
-        compatible = "zmk,keymap";
-        default_layer {
-            bindings = <
-                AS(Q) AS(W) AS(E) AS(R) AS(T) AS(Y) // Autoshift applied for QWERTY keys
-            >;
-        };
-    };
 };

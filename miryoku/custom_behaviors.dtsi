@@ -3,8 +3,8 @@
 #include "custom_behaviors.h"
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
-#define HML(MOD, TAP) &u_mt MOD TAP
-#define HMR(LAYER, TAP) &u_lt LAYER TAP
+#define HML(MOD, TAP) &hml MOD TAP
+#define HMR(MOD, TAP) &hmr MOD TAP
 
 / {
     behaviors {

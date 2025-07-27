@@ -1,22 +1,24 @@
+#pragma once
+
 #define HYPR  LC(LS(LA(LGUI)))
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,              &kp F,              &kp P,              &kp G,              &kp J,               &kp L,              &kp U,              &kp Y,              AS(SQT),             \
-U_MT(LCTRL, A),    U_MT(LALT, R),      U_MT(LGUI, S),      U_MT(LSHFT, T),     U_MT(HYPR, D),      U_MT(HYPR, H),       U_MT(RSHFT, N),     U_MT(RGUI, E),      U_MT(RALT, I),      U_MT(RCTRL, O),      \
+HML(LCTRL, A),     HML(LALT, R),       HML(LGUI, S),       HML(LSHFT, T),      HML(HYPR, D),       HMR(HYPR, H),        HMR(RSHFT, N),      HMR(RGUI, E),       HMR(RALT, I),       HMR(RCTRL, O),       \
 U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp K,               &kp M,              AS(COMMA),          AS(DOT),            U_LT(U_BUTTON,SLASH),\
 U_NP,              U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),   U_LT(U_MOUSE, TAB),  U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP,                \
 &kp C_PLAY_PAUSE
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,              &kp E,              &kp R,              &kp T,              &kp Y,               &kp U,              &kp I,              &kp O,              &kp P,               \
-U_MT(LCTRL, A),    U_MT(LALT, S),      U_MT(LGUI, D),      U_MT(LSHFT, F),     U_MT(HYPR, G),      U_MT(HYPR, H),       U_MT(RSHFT, J),     U_MT(RGUI, K),      U_MT(RALT, L),      U_MT(RCTRL, SEMI),    \
+HML(LCTRL, A),     HML(LALT, S),       HML(LGUI, D),       HML(LSHFT, F),      HML(HYPR, G),       HMR(HYPR, H),        HMR(RSHFT, J),      HMR(RGUI, K),       HMR(RALT, L),       HMR(RCTRL, SEMI),    \
 U_LT(U_BUTTON, Z), &kp X,              &kp C,              &kp V,              &kp B,              &kp N,               &kp M,              AS(COMMA),          AS(DOT),            U_LT(U_BUTTON,SLASH),\
 U_NP,              U_NP,               U_LT(U_FUN, DEL),   U_LT(U_NUM, BSPC),  U_LT(U_SYM, RET),   U_LT(U_MOUSE, TAB),  U_LT(U_NAV, SPACE), U_LT(U_MEDIA, ESC), U_NP,               U_NP,                \
 &trans
 
 #define MIRYOKU_LAYER_TAP \
 &trans,            &trans,             &trans,             &trans,             &trans,             &trans,              &trans,             &trans,             &trans,             &trans,              \
-U_MT(LGUI, A),     &trans,             U_MT(LCTRL, S),     &trans,             &trans,             &trans,              &trans,             U_MT(RCTRL, E),     &trans,             U_MT(RGUI, O),       \
+HML(LGUI, A),      &trans,             HML(LCTRL, S),      &trans,             &trans,             &trans,              &trans,             HMR(RCTRL, E),      &trans,             HMR(RGUI, O),        \
 &trans,            &trans,             &trans,             &trans,             &trans,             &trans,              &trans,             &trans,             &trans,             &trans,              \
 U_NP,              U_NP,               &trans,             &trans,             &trans,             &trans,              &trans,             &trans,             U_NP,               U_NP,                \
 &trans

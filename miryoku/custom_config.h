@@ -76,7 +76,7 @@ U_NP,              U_NP,               U_NA,               U_NA,               U
 &trans
 
 #define MIRYOKU_LAYER_BUTTON \
-U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_RDO,               U_PST,              U_CPY,              U_CUT,             U_UND,                \
+U_WH_L,            U_WH_D,             U_WH_U,             U_WH_R,             U_UND,              U_UND,               U_WH_L,             U_WH_D,             U_WH_U,            U_WH_R                \
 &kp LCTRL,         &kp LALT,           &kp LGUI,           &kp LSHFT,          &kp HYPR,           &kp HYPR,            &kp RSHFT,          &kp RGUI,           &kp RALT,          &kp RCTRL,            \
 U_UND,             U_CUT,              U_CPY,              U_PST,              U_RDO,              U_RDO,               U_PST,              U_CPY,              U_CUT,             U_UND,                \
 U_NP,              U_NP,               U_BTN3,             U_BTN1,             U_BTN2,             U_BTN2,              U_BTN1,             U_BTN3,             U_NP,              U_NP,                 \
@@ -86,7 +86,7 @@ U_NP,              U_NP,               U_BTN3,             U_BTN1,             U
 MIRYOKU_X(BASE,   "Base",   C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(BUTTON, "Button", U_WH_D,   U_WH_U)   \
 MIRYOKU_X(NAV,    "Nav",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MOUSE,  "Mouse",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MEDIA,  "Media",  C_VOL_DN, C_VOL_UP) \

@@ -1,17 +1,6 @@
 #pragma once
 
-#define U_BTN1 &mkp MB1
-#define U_BTN2 &mkp MB2
-#define U_BTN3 &mkp MB3
-
-#define U_MS_D &mmv MOVE_DOWN
-#define U_MS_L &mmv MOVE_LEFT
-#define U_MS_R &mmv MOVE_RIGHT
-#define U_MS_U &mmv MOVE_UP
-#define U_WH_D &msc SCRL_DOWN
-#define U_WH_L &msc SCRL_LEFT
-#define U_WH_R &msc SCRL_RIGHT
-#define U_WH_U &msc SCRL_UP
+// #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #define HYPR  LC(LS(LA(LGUI)))
 
@@ -99,7 +88,7 @@ U_NP,              U_NP,               U_BTN3,             U_BTN1,             U
 MIRYOKU_X(BASE,   "Base",   C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(BUTTON, "Button", U_WH_D,   U_WH_U)   \
+MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(NAV,    "Nav",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MOUSE,  "Mouse",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(MEDIA,  "Media",  C_VOL_DN, C_VOL_UP) \

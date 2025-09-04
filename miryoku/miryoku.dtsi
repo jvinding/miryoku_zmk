@@ -12,7 +12,7 @@
 #include "custom_behaviors.dtsi"
 #include "miryoku.h"
 
-// #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
   keymap {

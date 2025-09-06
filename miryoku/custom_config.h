@@ -85,7 +85,7 @@ U_NP,              U_NP,               U_BTN3,             U_BTN1,             U
 &trans
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base",   C_VOL_DN, C_VOL_UP) \
+MIRYOKU_X(BASE,   "Base",   U_WH_D,   U_WH_U)   \
 MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
 MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \

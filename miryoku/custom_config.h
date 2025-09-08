@@ -1,6 +1,6 @@
 #pragma once
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
+// #define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 #define HYPR  LC(LS(LA(LGUI)))
 

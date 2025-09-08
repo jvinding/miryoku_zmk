@@ -84,17 +84,19 @@ U_UND,             U_CUT,              U_CPY,              U_PST,              U
 U_NP,              U_NP,               U_BTN3,             U_BTN1,             U_BTN2,             U_BTN2,              U_BTN1,             U_BTN3,             U_NP,              U_NP,                 \
 &trans
 
+#define ENCODER_VOLUME &inc_dec_kp C_VOL_DN C_VOL_UP
+#define ENCODER_SCROLL &msc SCRL_DOWN SCRL_UP
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base",   U_WH_D,   U_WH_U)   \
-MIRYOKU_X(EXTRA,  "Extra",  C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(TAP,    "Tap",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(BUTTON, "Button", C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(NAV,    "Nav",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(MOUSE,  "Mouse",  C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(MEDIA,  "Media",  C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(NUM,    "Num",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(SYM,    "Sym",    C_VOL_DN, C_VOL_UP) \
-MIRYOKU_X(FUN,    "Fun",    C_VOL_DN, C_VOL_UP)
+MIRYOKU_X(BASE,   "Base",   ENCODER_SCROLL)   \
+MIRYOKU_X(EXTRA,  "Extra",  ENCODER_VOLUME) \
+MIRYOKU_X(TAP,    "Tap",    ENCODER_VOLUME) \
+MIRYOKU_X(BUTTON, "Button", ENCODER_VOLUME) \
+MIRYOKU_X(NAV,    "Nav",    ENCODER_VOLUME) \
+MIRYOKU_X(MOUSE,  "Mouse",  ENCODER_VOLUME) \
+MIRYOKU_X(MEDIA,  "Media",  ENCODER_VOLUME) \
+MIRYOKU_X(NUM,    "Num",    ENCODER_VOLUME) \
+MIRYOKU_X(SYM,    "Sym",    ENCODER_VOLUME) \
+MIRYOKU_X(FUN,    "Fun",    ENCODER_VOLUME)
 
 #define U_BASE   0
 #define U_EXTRA  1

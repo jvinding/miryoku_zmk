@@ -1,6 +1,6 @@
 #pragma once
 
-// #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 #define HYPR  LC(LS(LA(LGUI)))
 
@@ -85,7 +85,7 @@ U_NP,              U_NP,               U_BTN3,             U_BTN1,             U
 &trans
 
 #define ENCODER_VOLUME &inc_dec_kp C_VOL_DN C_VOL_UP
-#define ENCODER_SCROLL &msc SCRL_DOWN SCRL_UP
+#define ENCODER_SCROLL &scroll_up_down
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base",   ENCODER_SCROLL)   \
 MIRYOKU_X(EXTRA,  "Extra",  ENCODER_VOLUME) \
